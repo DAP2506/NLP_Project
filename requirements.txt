@@ -2,8 +2,6 @@ datetime
 numpy
 streamlit
 pandas
-sklearn
-scikit-learn
 pandas
 numpy
 seaborn
