@@ -6,7 +6,7 @@ from spelling_correction import correctSentence
 st.title('Correct your sentence ')
 
 
-data_sentence = st.text_input(label="Enter mail content here:", value="", max_chars=None, key=None, type="default", label_visibility="visible")
+data_sentence = st.text_input(label="Enter your sentence:", value="", max_chars=None, key=None, type="default", label_visibility="visible")
 
 
 submit = st.button('Show Result')
