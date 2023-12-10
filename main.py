@@ -13,7 +13,7 @@ submit = st.button('Show Result')
 
 if submit:
     st.success('Corrected Sentence')
-    st.balloons()
+    # st.balloons()
     if data_sentence:
         final_sentence = correctSentence(data_sentence)
         st.title(final_sentence)
