@@ -3,7 +3,7 @@ from datetime import datetime
 from spelling_correction import correctSentence
 
 
-st.title('Correct your sentence:')
+st.title('Correct your sentence below:')
 
 
 data_sentence = st.text_input(label="Enter your sentence:", value="", max_chars=None, key=None, type="default", label_visibility="visible")
