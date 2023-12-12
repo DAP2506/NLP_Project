@@ -887,6 +887,6 @@ def correctSentence(sentence):
   # print(sentence)
   return final_sentence
 
-print(correctSentence("are you l8r"))
+# print(correctSentence("are you l8r"))
 
 
